@@ -9,7 +9,3 @@ Curso ofereido para p 1º ano de Engenharia de Mecânica, 1º ano de Engenharia 
 ### Sobre
 
 Diversos exemplos do que foi mostrado em aula, para facilitar o acesso e visualização de assets e scripts.
-
-### Itens
-
-WIP
