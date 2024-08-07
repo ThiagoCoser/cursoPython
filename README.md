@@ -4,7 +4,7 @@ Curso ofereido para p 1º ano de Engenharia de Mecânica, 1º ano de Engenharia 
 4 créditos - 72 horas - Disciplina de 36 encontros
 2º Semestre de 2024
 
-<img src="Assets\banner.jpg" style='height: 100%; width: 100%; object-fit: contain'/>
+<img src="Assets\banner.png" style='height: 100%; width: 100%; object-fit: contain'/>
 
 ### Sobre
 
