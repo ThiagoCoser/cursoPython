@@ -1,3 +1,4 @@
+#%%
 import time
 
 x = 1
