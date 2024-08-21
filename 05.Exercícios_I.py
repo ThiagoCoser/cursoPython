@@ -105,12 +105,3 @@ print(resultado)
 ######10
 
 print ("“Terminei, estou adorando programar”!")
-
-######11
-
-numero = int(input("Digite um número: "))
-
-if numero % 2 == 0:
-    print(f"O número {numero} é par.")
-else:
-    print(f"O número {numero} é ímpar.")

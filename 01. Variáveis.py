@@ -1,6 +1,8 @@
-# Em Python, as variáveis podem armazenar diversos tipos de dados.
+# Em Python, as variáveis podem armazenar diversos tipos de dados,
+# incluindo qualquer objeto, como um número, uma imagem ou até uma função.
 # Cada tipo de variável tem suas próprias características e métodos associados, permitindo diferentes operações e manipulações de dados.
-# Aqui estão os principais tipos de variáveis e estruturas de dados em Python:
+# Aqui estão os principais tipos de variáveis básicas
+# de estruturas de dados em Python:
 
 # Números Inteiros (int)
 x = 10
