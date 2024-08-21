@@ -62,3 +62,5 @@ b = 12
 # Importa a função modular da biblioteca do ScriptA
 # c = ScriptA.somaNumeros(a,b)
 print(c)
+
+# %%
