@@ -34,6 +34,12 @@ def obter_numero(mensagem):
         except ValueError:
             print("Entrada inválida. Por favor, digite um número válido.")
 
+# Se ocorrer uma exceção, o print é executado e o loop recomeça.
+# Caso a função retorna uma entrada válida a conversão para int
+# é bem-sucedida. Se o int(input(mensagem)) não levanta
+# uma exceção, o return é executado, saindo do loop
+# e retornando o valor convertido.
+
 # Solicita ao usuário para digitar dois números
 a = obter_numero("Digite o número inteiro A: ")
 b = obter_numero("Digite o número inteiro B: ")
