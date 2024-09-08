@@ -2,6 +2,7 @@
 
 # pip install keyboard
 # pip install pillow
+# pip install tk
 # pip install playsound (em caso de erro: python -m pip install --upgrade setuptools wheel)
 
 import keyboard
