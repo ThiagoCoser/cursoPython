@@ -1,26 +1,27 @@
 #%%
 # Lendo arquivos
 
-open("teste.txt")
-open("teste.txt",'r')
-#open("teste.txt", 'w')
+open("TXTs/leituraSimples.txt")
+open("TXTs/leituraSimples.txt",'r')
+#open("TXTs/leituraSimples.txt", 'w')
 
 #%% Classe
-meuArquivo = open ('teste.txt')
+meuArquivo = open ('TXTs/leituraSimples.txt')
 print (type(meuArquivo))
+print(meuArquivo.readlines())
 
 #%% Certificando que o arquivo é de leitura e que será propriamente fechado
 
-with open('teste.txt', 'r') as reader:
+with open('TXTs/leituraSimples.txt', 'r') as reader:
     print(reader.read())
 
-with open('teste.txt', 'r') as reader:
+with open('TXTs/leituraSimples.txt', 'r') as reader:
 
     print(reader.readline())
     print(reader.readline())
     print(reader.readline())
 
-with open('teste.txt', 'r') as reader:
+with open('TXTs/leituraSimples.txt', 'r') as reader:
 
     lista = reader.readlines()
     print(lista)
@@ -40,13 +41,13 @@ with open('teste.txt', 'r') as reader:
 # Controle de fluxo
 
 # Imprime todas as linhas
-with open('teste.txt', 'r') as reader:
+with open('TXTs/leituraSimples.txt', 'r') as reader:
     for linha in reader:
         # Processa cada linha individualmente
         print(linha)
 
 # Procura uma palavra-chave em cada linha
-with open('teste.txt', 'r') as reader:
+with open('TXTs/leituraSimples.txt', 'r') as reader:
     while True:
         linha = reader.readline()
         if not linha:  # Fim do arquivo
@@ -64,7 +65,7 @@ with open('teste.txt', 'r') as reader:
 
 import requests
 
-url = "https://raw.githubusercontent.com/ThiagoCoser/cursoPython/main/teste.txt"
+url = "https://raw.githubusercontent.com/ThiagoCoser/cursoPython/main/TXTs/leituraSimples.txt"
 
 dadoOnline= requests.get(url)
 
