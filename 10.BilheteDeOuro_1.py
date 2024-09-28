@@ -1,5 +1,32 @@
 # Solução dos exercícios contidos no arquivo 09
 
+# Exercício, em duplas.
+
+# O BILHETE DE OURO
+
+# A mega sena é a maior modalidade de loteria do Brasil. Para jogar da
+# maneira mais simples, você escolhe 6 números de 1 a 60 e precisa acertar
+# todas as escolhas. A probabilidade matemática de acerto é 1:50.063.860!
+# Ou seja, é quase impossível acertar, melhor aprender a programar em
+#Python!
+
+# A partir da importação dos dados dos resultados de todos os sorteios,
+# converse com seu par e crie 2 scripts que façam o seguinte:
+
+# 1) Crie um bilhete aleatório com 6 números (não pode haver números
+# repetidos). Verifique se este bilhete está presente no histórico dos
+# resultados. Este pode ser um bom bilhete?
+
+# 2) Faça uma lista da quantidade que cada número saiu em todos os jogos,
+# verificando assim se há um equilíbrio na distribuição dos números.
+# Transforme o resultado de cada número em porcentagem,
+# liste os números que mais sairam e crie assim
+# O BILHETE DE OURO, contendo apenas os números com maior probabilidade
+# de sair.
+
+# Página oficial contendo todos os resultados para download
+# https://loterias.caixa.gov.br/Paginas/Mega-Sena.aspx
+
 #%%
 #1) Criação de um meuBilhete aleatório
 
