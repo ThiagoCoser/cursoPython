@@ -110,3 +110,6 @@ except FileExistsError:
 
 #6) Gere números aleatórios e salve em arquivo
 # Gere 100 números aleatórios e salve-os em numeros.txt, um em cada linha
+
+# Extras
+# 1) Pesquise como salvar a data e hora em um arquivo, toda vez que ele é executado, criando assim um log
